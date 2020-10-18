@@ -61,8 +61,7 @@
           "bin": "%target-dir%/composer-unused"
         }
       },
-      "test": "composer-unused -vvv | grep 'Your system is ready'",
-      "tags": ["exclude-php:7.2"]
+      "test": "composer-unused -vvv | grep 'Your system is ready'"
     },
     {
       "name": "dephpend",
@@ -142,7 +141,7 @@
         }
       },
       "test": "infection --version",
-      "tags": ["featured", "exclude-php:7.2"]
+      "tags": ["featured"]
     },
     {
       "name": "parallel-lint",
@@ -167,8 +166,7 @@
           "bin": "%target-dir%/paratest"
         }
       },
-      "test": "paratest --version",
-      "tags": ["exclude-php:7.2"]
+      "test": "paratest --version"
     },
     {
       "name": "pdepend",
@@ -364,8 +362,7 @@
           "bin": "%target-dir%/phpcov"
         }
       },
-      "test": "phpcov -v",
-      "tags": ["exclude-php:7.2"]
+      "test": "phpcov -v"
     },
     {
       "name": "phpcpd",
@@ -378,7 +375,7 @@
         }
       },
       "test": "phpcpd -v",
-      "tags": ["featured", "exclude-php:7.2"]
+      "tags": ["featured"]
     },
     {
       "name": "phpcs",
@@ -404,7 +401,7 @@
         }
       },
       "test": "phpda list",
-      "tags": ["featured", "exclude-php:7.2"]
+      "tags": ["featured"]
     },
     {
       "name": "phpdoc-to-typehint",
@@ -454,8 +451,7 @@
           "bin": "%target-dir%/phploc"
         }
       },
-      "test": "phploc -v",
-      "tags": ["exclude-php:7.2"]
+      "test": "phploc -v"
     },
     {
       "name": "phpmd",
@@ -641,7 +637,7 @@
         }
       },
       "test": "phpunit --version",
-      "tags": ["featured", "exclude-php:7.2"]
+      "tags": ["featured"]
     },
     {
       "name": "phpunit-8",
@@ -745,7 +741,7 @@
         }
       },
       "test": "roave-backward-compatibility-check --version",
-      "tags": ["exclude-php:7.2", "exclude-php:7.3"]
+      "tags": ["exclude-php:7.3"]
     },
     {
       "name": "security-checker",
